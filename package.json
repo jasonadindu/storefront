@@ -2,7 +2,7 @@
   "name": "store_front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jasonadindu.github.io/store_front",
+  "homepage": "https://jasonadindu.github.io/storefront/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
