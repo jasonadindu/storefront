@@ -12,9 +12,9 @@ function App() {
       getProducts()
   }, [])
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
-        <Route path="/" Component={() => <Home />} />
+        <Route exact path="/" Component={() => <Home />} />
         <Route path="/product/:id" Component={() => <Product />} />
         <Route path="" Component={() => <NotFound />} />
       </Routes>
