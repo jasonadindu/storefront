@@ -29,7 +29,6 @@ const StoreProvider = ({ children }) => {
   };
 
   const resetProducts = () => {
-    console.log(temp);
     setProducts([...temp]);
     setTemp([]);
     setSorted(false);
